@@ -12,4 +12,4 @@ helper = []
 #zavolame funkciu
 hanoi(len(source),source,helper,target)
 
-print("{}, {}, {}."format(source, helper, target))
+print("{}, {}, {}".format(source, helper, target))
