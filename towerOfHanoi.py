@@ -8,6 +8,8 @@ def hanoi(n, source, helper, target):
 source = [4,3,2,1]
 target = []
 helper = []
+
+#zavolame funkciu
 hanoi(len(source),source,helper,target)
 
-print source, helper, target
+print("{}, {}, {}."format(source, helper, target))
